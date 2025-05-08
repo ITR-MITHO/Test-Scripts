@@ -1,2 +1,2 @@
-Add-PSSnapin *EXC*
-Import-Module ActiveDirectory
+Add-PSSnapin *EXC*  
+Import-Module ActiveDirectory  
