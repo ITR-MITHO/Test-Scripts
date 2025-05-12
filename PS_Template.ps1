@@ -5,5 +5,5 @@ $Batch = "https://raw.githubusercontent.com/ITR-MITHO/Test-Scripts/refs/heads/ma
 $Bat = Invoke-RestMethod -Uri $Batch
 
 
-$PS | Out-File -FilePath "$Home\Desktop\PS_Template.ps1" -Encoding UNICODE
-$BAT | Out-File -FilePath "$Home\Desktop\PS_Template.BAT" -Encoding UNICODE 
+$PS | Out-File -FilePath "$Home\Desktop\PS_Template.ps1" -Encoding UTF8BOM
+$BAT | Out-File -FilePath "$Home\Desktop\PS_Template.BAT" -Encoding ASCII
