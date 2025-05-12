@@ -1,2 +1,2 @@
-CD "C:\ITM8 - Scripts"  
-POWERSHELL.EXE .\ExchangePowerShell.ps1 -FORCE  
+CD "C:\ITM8 - Scripts"
+POWERSHELL.EXE .\ExchangePowerShell.ps1 -FORCE
